@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<!-- meta --> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>jq ui</title>
+
+     <!-- Favicons -->
+    
+
+
+    <!-- fonts -->
+
+    <!-- icon -->
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-icons.css">
+    
+    <!-- css link -->
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+
+   
+  </head>
+
+ 
+  <body>
+    <!-- header start -->
+    <header>
+      <h1 class="text-center">jq ui</h1>
+    </header>
+    <!-- header end -->
+
+    <!-- drgble start -->
+    <section class="drgble">
+      <div class="container">
+      <h1 class="text-center">Draggable</h1>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-3">
+            <ul class="cstm-ul">
+              <li id="draggable" class="ui-state-highlight cstm-ul-li">Drag me down</li>
+            </ul>
+             
+            <ul id="sortable" class="cstm-ul">
+              <li class="ui-state-default cstm-ul-li">Item 1</li>
+              <li class="ui-state-default cstm-ul-li">Item 2</li>
+              <li class="ui-state-default cstm-ul-li">Item 3</li>
+              <li class="ui-state-default cstm-ul-li">Item 4</li>
+              <li class="ui-state-default cstm-ul-li">Item 5</li>
+            </ul>
+          </div>
+        </div>
+
+    </div>
+    </section>
+    <hr>
+    <!-- drgble start -->
+
+    <!-- drpbble start -->
+    <section class="Drppble">
+      <div class="container">
+      <h1 class="text-center">Droppable</h1>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <div class="ui-widget ui-helper-clearfix">
+ 
+              <ul id="gallery" class="gallery ui-helper-reset ui-helper-clearfix">
+                <li class="ui-widget-content ui-corner-tr">
+                  <h5 class="ui-widget-header">High Tatras</h5>
+                  <img src="images/high_tatras_min.jpg" alt="The peaks of High Tatras" width="96" height="72">
+                  <a href="images/high_tatras.jpg" title="View larger image" class="ui-icon ui-icon-zoomin">View larger</a>
+                  <a href="link/to/trash/script/when/we/have/js/off" title="Delete this image" class="ui-icon ui-icon-trash"><i class="fa-solid fa-trash"></i></a>
+                </li>
+
+                <li class="ui-widget-content ui-corner-tr">
+                  <h5 class="ui-widget-header">High Tatras 2</h5>
+                  <img src="images/high_tatras2_min.jpg" alt="The chalet at the Green mountain lake" width="96" height="72">
+                  <a href="images/high_tatras2.jpg" title="View larger image" class="ui-icon ui-icon-zoomin">View larger</a>
+                  <a href="link/to/trash/script/when/we/have/js/off" title="Delete this image" class="ui-icon ui-icon-trash">Delete image</a>
+                </li>
+
+                <li class="ui-widget-content ui-corner-tr">
+                  <h5 class="ui-widget-header">High Tatras 3</h5>
+                  <img src="images/high_tatras3_min.jpg" alt="Planning the ascent" width="96" height="72">
+                  <a href="images/high_tatras3.jpg" title="View larger image" class="ui-icon ui-icon-zoomin">View larger</a>
+                  <a href="link/to/trash/script/when/we/have/js/off" title="Delete this image" class="ui-icon ui-icon-trash">Delete image</a>
+                </li>
+
+                <li class="ui-widget-content ui-corner-tr">
+                  <h5 class="ui-widget-header">High Tatras 4</h5>
+                  <img src="images/high_tatras4_min.jpg" alt="On top of Kozi kopka" width="96" height="72">
+                  <a href="images/high_tatras4.jpg" title="View larger image" class="ui-icon ui-icon-zoomin">View larger</a>
+                  <a href="link/to/trash/script/when/we/have/js/off" title="Delete this image" class="ui-icon ui-icon-trash">Delete image</a>
+                </li>
+
+              </ul>
+ 
+              <div id="trash" class="ui-widget-content ui-state-default">
+                <h4 class="ui-widget-header"><span class="ui-icon ui-icon-trash">Trash</span> Trash</h4>
+              </div>
+ 
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr>
+    <!-- drpbble start -->
+
+    <!-- resizable start -->
+    <section class="reszble">
+      <div class="container">
+        <h1 class="text-center">Resizable</h1>
+          <div class="row justify-content-center">
+            <div class="col-lg-2">
+              <div id="resizable" class="ui-widget-content">
+                <h3 class="ui-widget-header">Animate</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <hr>
+    <!-- resizable end -->
+
+    <!-- Selectable start -->
+    <section class="Slctble">
+      <div class="container">
+        <h1 class="text-center">Selectable</h1>
+          <div class="row justify-content-center">
+            <div class="col-lg-5">
+               <ol id="selectable">
+                <li class="ui-state-default">1</li>
+                <li class="ui-state-default">2</li>
+                <li class="ui-state-default">3</li>
+                <li class="ui-state-default">4</li>
+                <li class="ui-state-default">5</li>
+                <li class="ui-state-default">6</li>
+                <li class="ui-state-default">7</li>
+                <li class="ui-state-default">8</li>
+                <li class="ui-state-default">9</li>
+                <li class="ui-state-default">10</li>
+                <li class="ui-state-default">11</li>
+                <li class="ui-state-default">12</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+    </section>
+    <hr>
+    <!-- Selectable end -->
+
+    <!-- accordion start -->
+    <section class="accrdn">
+      <div class="container">
+        <h1 class="text-center">accordion</h1>
+          <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div id="accordion">
+                  <h3>Section 1</h3>
+                  <div>
+                    <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
+                  </div>
+                  <h3>Section 2</h3>
+                  <div>
+                    <p>Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In suscipit faucibus urna. </p>
+                  </div>
+                  <h3>Section 3</h3>
+                  <div>
+                    <p>Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis. Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui. </p>
+                    <ul>
+                      <li>List item one</li>
+                      <li>List item two</li>
+                      <li>List item three</li>
+                    </ul>
+                  </div>
+                  <h3>Section 4</h3>
+                  <div>
+                    <p>Cras dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia mauris vel est. </p><p>Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <hr>
+    <!-- accordion end -->
+
+    <!-- autocomplete start -->
+    <section class="atocmplt">
+      <div class="container">
+        <h1 class="text-center">autocomplete</h1>
+          <div class="row justify-content-center">
+            <div class="col-lg-2">
+              <div class="ui-widget">
+                <label for="tags">Tags: </label>
+                <input id="tags">
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <hr>
+    <!-- autocomplete end -->
+
+    <!-- datepicker start -->
+    <section class="dtpckr">
+      <div class="container">
+        <h1 class="text-center">Datepicker</h1>
+          <div class="row justify-content-center">
+            <div class="col-lg-6">
+              <div>
+                <p>
+                  Date: <input type="text" id="datepicker">&#xA0;
+                  <input type="text" id="alternate" size="30">
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <hr>
+    <!-- datepicker end -->
+
+    <!-- Progressbar start -->
+    <section class="prgsbr">
+      <div class="container">
+        <h1 class="text-center">Progressbar</h1>
+          <div class="row justify-content-center">
+            <div class="col-lg-2">
+              <div id="dialog" title="File Download">
+                  <div class="progress-label">Starting download...</div>
+                  <div id="progressbar"></div>
+                </div>
+                <button id="downloadButton" class="btn btn-success">Start Download</button>
+            </div>
+          </div>
+        </div>
+    </section>
+    <hr>
+    <!-- Progressbar end -->
+
+    <!-- controlgroup start -->
+    <section class="cntrlgroup">
+      <div class="container">
+        <h1 class="text-center">controlgroup</h1>
+          <div class="row justify-content-center">
+            <div class="col-lg-6">
+              <div class="widget">
+                <fieldset>
+                  <legend>Rental Car</legend>
+                  <div class="controlgroup">
+                    <select id="car-type">
+                      <option>Compact car</option>
+                      <option>Midsize car</option>
+                      <option>Full size car</option>
+                      <option>SUV</option>
+                      <option>Luxury</option>
+                      <option>Truck</option>
+                      <option>Van</option>
+                    </select>
+                    <label for="transmission-standard">Standard</label>
+                    <input type="radio" name="transmission" id="transmission-standard">
+                    <label for="transmission-automatic">Automatic</label>
+                    <input type="radio" name="transmission" id="transmission-automatic">
+                    <label for="insurance">Insurance</label>
+                    <input type="checkbox" name="insurance" id="insurance">
+                    <label for="horizontal-spinner" class="ui-controlgroup-label"># of cars</label>
+                    <input id="horizontal-spinner" class="ui-spinner-input">
+                    <button>Book Now!</button>
+                  </div>
+                </fieldset>
+                <br>
+                <fieldset>
+                  <legend>Rental Car</legend>
+                  <div class="controlgroup-vertical">
+                    <select>
+                      <option>Compact car</option>
+                      <option>Midsize car</option>
+                      <option>Full size car</option>
+                      <option>SUV</option>
+                      <option>Luxury</option>
+                      <option>Truck</option>
+                      <option>Van</option>
+                    </select>
+                    <label for="transmission-standard-v">Standard</label>
+                    <input type="radio" name="transmission-v" id="transmission-standard-v">
+                    <label for="transmission-automatic-v">Automatic</label>
+                    <input type="radio" name="transmission-v" id="transmission-automatic-v">
+                    <label for="insurance-v">Insurance</label>
+                    <input type="checkbox" name="insurance" id="insurance-v">
+                    <label for="vertical-spinner" class="ui-controlgroup-label"># of cars</label>
+                    <input id="vertical-spinner" class="ui-spinner-input">
+                    <button id="book">Book Now!</button>
+                  </div>
+                </fieldset>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <hr>
+    <!-- controlgroup end -->
+
+    <!-- slider start -->
+    <section class="sldr">
+      <div class="container">
+        <h1 class="text-center">slider</h1>
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div>
+                <p class="ui-state-default ui-corner-all ui-helper-clearfix cstm-sld-vlm">
+                  <span class="ui-icon ui-icon-volume-on"></span>
+                  Master volume
+                </p>
+             
+                <div id="master" class="sldr-mstr"></div>
+             
+                <p class="ui-state-default ui-corner-all sldr-grphic-eq">
+                  <span class="ui-icon ui-icon-signal" style="float:left; margin:-2px 5px 0 0;"></span>
+                  Graphic EQ
+                </p>
+                <div id="eq">
+                  <span>88</span>
+                  <span>77</span>
+                  <span>55</span>
+                  <span>33</span>
+                  <span>40</span>
+                  <span>45</span>
+                  <span>70</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <hr>
+    <!-- slider end -->
+
+    <!-- tbs start -->
+    <section class="tbs">
+      <div class="container">
+        <h1 class="text-center">Tabs</h1>
+          <div class="row justify-content-center">
+            <div class="col-lg-6">
+              <div id="tabs">
+                  <ul>
+                    <li><a href="#tabs-1">Preloaded</a></li>
+                    <li><a href="tb1.html">Tab 1</a></li>
+                    <li><a href="ajax/content2.html">Tab 2</a></li>
+                    <li><a href="ajax/tb2.html">Tab 3 (slow)</a></li>
+                    <li><a href="ajax/content4-broken.php">Tab 4 (broken)</a></li>
+                  </ul>
+                  <div id="tabs-1">
+                    <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <hr>
+    <!-- tbs end -->
+
+    <!-- effect start -->
+    <section class="effct-ralf">
+      <div class="container">
+        <h1 class="text-center">effect</h1>
+          <div class="row justify-content-center">
+            <div class="col-lg-5">
+              <div class="effct">
+                <div class="toggler">
+                <div id="effect" class="ui-widget-content ui-corner-all">
+                  <h3 class="ui-widget-header ui-corner-all">Effect</h3>
+                  <p>
+                    Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede. Nulla lorem metus, adipiscing ut, luctus sed, hendrerit vitae, mi.
+                  </p>
+                </div>
+              </div>
+               
+              <select name="effects" id="effectTypes">
+                <option value="blind">Blind</option>
+                <option value="bounce">Bounce</option>
+                <option value="clip">Clip</option>
+                <option value="drop">Drop</option>
+                <option value="explode">Explode</option>
+                <option value="fade">Fade</option>
+                <option value="fold">Fold</option>
+                <option value="highlight">Highlight</option>
+                <option value="puff">Puff</option>
+                <option value="pulsate">Pulsate</option>
+                <option value="scale">Scale</option>
+                <option value="shake">Shake</option>
+                <option value="size">Size</option>
+                <option value="slide">Slide</option>
+                <option value="transfer">Transfer</option>
+              </select>
+               
+              <button id="button" class="ui-state-default ui-corner-all btn btn-success">Run Effect</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <hr>
+    <!-- effect end -->
+
+    <!-- add Class start -->
+    <section class="add-clss">
+      <div class="container">
+        <h1 class="text-center">Add Class</h1>
+          <div class="row justify-content-center">
+            <div class="col-lg-6">
+              <div class="effct">
+                <div class="toggler2">
+                  <div id="effect2" class="ui-corner-all">
+                      Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede.
+                  </div>
+                </div>
+                 
+                <button id="button2" class="ui-state-default ui-corner-all btn btn-success">Run Effect</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <hr>
+    <!-- add Class end -->
+
+
+    
+    
+
+    
+
+    
+
+
+
+
+    <!-- js link -->
+    <script type="text/javascript" src="js/ajax.googleapis.com_ajax_libs_jquery_1.12.4_jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="fontawesome/js/all.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+
+  </body>
+</html>

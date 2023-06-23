@@ -1,0 +1,292 @@
+
+
+/*font start*/
+@font-face{
+	font-family: PTSans-Regular;
+	src: url(../fonts/ptsans/PTSans-Regular.ttf);
+	
+}
+
+@font-face{
+	font-family: PTSans-Bold;
+	src: url(../fonts/ptsans/PTSans-Bold.ttf);
+	
+}
+/*font end*/
+
+/*common start*/
+body {
+	font-family: PTSans-Regular;
+	font-size: 16px;
+	font-weight: 400;
+	color: #909090; 
+
+}
+h1{
+	text-transform: uppercase;
+}
+/*common end*/
+
+/*header start*/
+header {
+	padding: 25px 0;
+	font-size: 30px;
+	font-weight: 700;
+	color: #ffffff;
+	text-transform: uppercase;
+	background-color: #3cbc8c;
+
+}
+ 
+/*header end*/
+
+/*drgble start*/
+.cstm-ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 10px;
+}
+
+.cstm-ul li{
+	margin: 5px;
+	padding: 5px;
+	width: 250px;
+}
+
+/*drgble end*/
+
+/*drpbble start*/
+#gallery {
+	float: left;
+	width: 65%;
+	min-height: 12em;
+}
+  .gallery.custom-state-active {
+  	background: #eee;
+  }
+  .gallery li {
+  	float: left;
+  	width: 96px;
+  	padding: 0.4em;
+  	margin: 0 0.4em 0.4em 0;
+  	text-align: center;
+  }
+
+  .gallery li h5 {
+  	font-family: PTSans-Regular;
+  	font-size: 14px;
+  	font-weight: 400;
+  	margin: 0 0 0.4em;
+  	cursor: move;
+  }
+
+  .gallery li a {
+  	float: right;
+  }
+
+  .gallery li a.ui-icon-zoomin {
+  	float: left;
+  }
+
+  .gallery li img {
+  	width: 100%;
+  	cursor: move;
+  }
+ 
+  #trash { float: right;
+  	width: 32%;
+  	min-height: 18em;
+  	padding: 1%;
+  }
+
+  #trash h4 {
+  	font-family: PTSans-Regular;
+  	font-size: 14px;
+  	font-weight: 400;
+  	line-height: 16px;
+  	margin: 0 0 0.4em;
+  }
+
+  #trash h4 .ui-icon {
+  	float: left;
+  }
+
+  #trash .gallery h5 {
+  	display: none;
+  }
+/*drpbble end*/
+
+/*resizeable start*/
+	#resizable {
+		width: 150px;
+		height: 150px;
+		padding: 0.5em;
+	}
+
+	#resizable h3 {
+		font-family: PTSans-Bold;
+		font-weight: 700;
+		text-align: center;
+		margin: 0;
+	}
+
+	.ui-resizable-helper {
+		border: 1px dotted gray;
+	}
+/*resizeable end*/
+
+/*slctable start*/
+#feedback { font-size: 1.4em; }
+  #selectable .ui-selecting {
+  	background: #FECA40;
+  }
+
+  #selectable .ui-selected {
+  	background: #F39814;
+  	color: white;
+  }
+
+  #selectable {
+  	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	width: 450px;
+  }
+
+  #selectable li {
+  	margin: 3px;
+  	padding: 1px;
+  	float: left;
+  	width: 100px;
+  	height: 80px;
+  	font-size: 4em;
+  	text-align: center;
+  	cursor: pointer;
+  }
+/*slctable end*/
+
+/*progress start*/
+#progressbar {
+    margin-top: 20px;
+  }
+ 
+  .progress-label {
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #fff;
+  }
+ 
+  .ui-dialog-titlebar-close {
+    display: none;
+  }
+/*progress end*/
+
+/*controlgroup start*/
+.ui-controlgroup-vertical {
+      width: 150px;
+    }
+    .ui-controlgroup.ui-controlgroup-vertical > button.ui-button,
+    .ui-controlgroup.ui-controlgroup-vertical > .ui-controlgroup-label {
+      text-align: center;
+    }
+    #car-type-button {
+      width: 120px;
+    }
+    .ui-controlgroup-horizontal .ui-spinner-input {
+      width: 20px;
+    }
+/*controlgroup end*/
+
+/*slider start*/
+.cstm-sld-vlm{
+	padding:4px;
+}
+
+.cstm-sld-vlm span{
+	margin:-2px 5px 0 0;
+	float:left;
+
+}
+
+.sldr-mstr{
+	width:260px;
+	padding:4px;
+	margin:15px;
+}
+
+.sldr-grphic-eq{
+	margin-top:4em;
+}
+
+#eq > span {
+    height:120px; float:left; margin:15px
+  }
+/*slider end*/
+
+/*effct start*/
+.effct{
+	padding: 50px;
+	border: 1px solid black;
+}
+
+.toggler {
+	width: 500px;
+	height: 250px;
+	position:relative;
+}
+
+#button {
+	padding: .5em 1em;
+	text-decoration: none;
+}
+
+#effect {
+	width: 240px;
+	height: 200px;
+	padding: 0.4em;
+	position: relative;
+}
+#effect h3 {
+	margin: 0;
+	padding: 0.4em;
+	font-size: 20px;
+	text-align: center;
+}
+.ui-effects-transfer {
+	border: 2px dotted gray;
+}
+/*effct end*/
+
+/*add-clss start*/
+.toggler2 {
+	width: 500px;
+	height: 250px;
+	position: relative;
+}
+    #button2 {
+    	padding: .5em 1em;
+    	text-decoration: none;
+    }
+
+    #effect2 {
+    	width: 240px;
+    	padding: 1em;
+    	border: 1px solid #000;
+    	background: #eee;
+    	color: #333;
+    }
+    .newClass {
+    	text-indent: 40px;
+    	letter-spacing: .4em;
+    	width: 410px;
+    	height: 230px;
+    	padding: 30px;
+    	margin: 10px;
+    	font-size: 1.1em;
+    }
+
+/*add-clss start*/
+
+
+
+
